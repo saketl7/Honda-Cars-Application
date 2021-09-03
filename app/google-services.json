@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "170240249441",
+    "project_id": "honda-car",
+    "storage_bucket": "honda-car.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170240249441:android:3fb1b1bfc0413583d62420",
+        "android_client_info": {
+          "package_name": "com.example.hondacar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170240249441-n06nqn5cq0eh8fa5ik3nvbvrq80gmhe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA81m5OeJCJ5nI8qWLz2FIrc-4xgTQn2Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170240249441-n06nqn5cq0eh8fa5ik3nvbvrq80gmhe4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
