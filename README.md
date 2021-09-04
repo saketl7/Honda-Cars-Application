@@ -13,3 +13,7 @@ The goal of this software is to give existing users with technology that allows 
 - Gate pass generator allows users to book a slot, so that they can believe in the safety during these tough times.
 - EMI calculator can be used to ease the buying experience of the user and make the decisions by knowing the EMI cost beforehand, i.e., before buying the car.
 - The process of development of the software is divided into seven months of span from August 2021 to February 2022.
+
+## Features/Modules
+- Viewing Models & Specifications of each product - This component of the application will allow users to view models of automobiles that they are interested in purchasing, and users will be able to browse through numerous models that they are interested in, and on the later stage users will be able to book the car virtually.
+- Apply for a test drive of a particular product - This feature of the app will assist interested users in scheduling a test drive of a certain model of
