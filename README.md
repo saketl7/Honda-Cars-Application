@@ -17,9 +17,9 @@ The goal of this software is to give existing users with technology that allows 
 ## Features/Modules
 - <b>Viewing Models & Specifications of each product</b> - This component of the application will allow users to view models of automobiles that they are interested in purchasing, and users will be able to browse through numerous models that they are interested in, and on the later stage users will be able to book the car virtually.
 
-- <b>Apply for a test drive of a particular product - This feature of the app will assist interested users in scheduling a test drive of a certain model of automobile that they want to try, and if they like the car, they may purchase it.
+- <b>Apply for a test drive of a particular product</b> - This feature of the app will assist interested users in scheduling a test drive of a certain model of automobile that they want to try, and if they like the car, they may purchase it.
 
-- <b>Chatbot - This feature allows the user to get answers for FAQs.
+- <b>Chatbot</b> - This feature allows the user to get answers for FAQs.
 
 - <b>Complaint History</b> - It allows the user to raise a query and it will also display the query that is still being worked on from the company side and the queries that are resolved by the company.
 
