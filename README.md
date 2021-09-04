@@ -21,7 +21,7 @@ The goal of this software is to give existing users with technology that allows 
 
 - <b>Chatbot - This feature allows the user to get answers for FAQs.
 
-- <b>Complaint History - It allows the user to raise a query and it will also display the query that is still being worked on from the company side and the queries that are resolved by the company.
+- <b>Complaint History</b> - It allows the user to raise a query and it will also display the query that is still being worked on from the company side and the queries that are resolved by the company.
 
 - *Pricing of Products* - This feature of the app will allow users who are interested in purchasing a car to look at the costs of certain models of the automobile they want to buy.
 
