@@ -55,3 +55,5 @@ An application for Honda Cars India Ltd with the above enlisted features.
 <p align="center">
 	<img src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png">
 </p>
+
+![](https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png | width=100)
