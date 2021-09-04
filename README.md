@@ -23,25 +23,25 @@ The goal of this software is to give existing users with technology that allows 
 
 - <b>Complaint History</b> - It allows the user to raise a query and it will also display the query that is still being worked on from the company side and the queries that are resolved by the company.
 
-- *Pricing of Products* - This feature of the app will allow users who are interested in purchasing a car to look at the costs of certain models of the automobile they want to buy.
+- <b>Pricing of Products</b> - This feature of the app will allow users who are interested in purchasing a car to look at the costs of certain models of the automobile they want to buy.
 
-- Booking a Car - This feature of the app will assist customers in booking a certain model of automobile that they wish to purchase. It eases the process of booking a car in online mode which is the need of the hour in times of pandemic.
+- <b>Booking a Car</b> - This feature of the app will assist customers in booking a certain model of automobile that they wish to purchase. It eases the process of booking a car in online mode which is the need of the hour in times of pandemic.
 
-- Looking for pre-owned cars - This element of the program will meet the demands of customers who are looking for a pre-owned/used automobile model; they will be able to browse through all of the company's used cars.
+- <b>Looking for pre-owned cars</b> - This element of the program will meet the demands of customers who are looking for a pre-owned/used automobile model; they will be able to browse through all of the company's used cars.
 
-- Finding Dealers - This feature of the app will assist interested users in visiting a Honda dealership to receive a hands-on experience with a specific model of the automobile they wish to buy, as well as obtain any further information they require. This feature will also allow its users to find nearby dealers using Location API.
+- <b>Finding Dealers</b> - This feature of the app will assist interested users in visiting a Honda dealership to receive a hands-on experience with a specific model of the automobile they wish to buy, as well as obtain any further information they require. This feature will also allow its users to find nearby dealers using Location API.
 
-- Offers Available - Customers who are interested can use this section of the application to learn about current interesting deals on various automobile models.
+- <b>Offers Available</b> - Customers who are interested can use this section of the application to learn about current interesting deals on various automobile models.
 
-- EMI Calculator - Customers who want to buy a car and pay in instalments will benefit from this option. The user will be able to determine the amount he will have to pay monthly.
+- <b>EMI Calculator</b> - Customers who want to buy a car and pay in instalments will benefit from this option. The user will be able to determine the amount he will have to pay monthly.
 
-- Finding Service Centers - This feature of the app will assist users in locating Honda Authorized Service Centers if their car requires service or breaks down. This feature will also allow its users to find nearby dealers using Location API.
+- <b>Finding Service Centers</b> - This feature of the app will assist users in locating Honda Authorized Service Centers if their car requires service or breaks down. This feature will also allow its users to find nearby dealers using Location API.
 
-- Generating Gate Pass - This feature of the app will assist users who are visiting a Honda Dealership or a Honda Authorized Service Center in obtaining a gate pass, which will help to better arrange services to save time and avoid crowding the centers at times when social distancing is required.
+- <b>Generating Gate Pass</b> - This feature of the app will assist users who are visiting a Honda Dealership or a Honda Authorized Service Center in obtaining a gate pass, which will help to better arrange services to save time and avoid crowding the centers at times when social distancing is required.
 
-- GPS tracking Speed Limit - It allows the car's owner to monitor the vehicle's speed and set restrictions so that it does not exceed them. If the intended speed limit is exceeded, the software plays a voice note as a warning.
+- <b>GPS tracking Speed Limit</b> - It allows the car's owner to monitor the vehicle's speed and set restrictions so that it does not exceed them. If the intended speed limit is exceeded, the software plays a voice note as a warning.
 
-- About Page - This tab is a basic page describing the company.
+- <b>About Page</b> - This tab is a basic page describing the company.
 
 ## Technologies Used
 - AndroidStudio 
