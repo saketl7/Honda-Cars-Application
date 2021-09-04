@@ -53,8 +53,8 @@ The goal of this software is to give existing users with technology that allows 
 ## Final Deliverables
 An application for Honda Cars India Ltd with the above enlisted features.
 <p align="center">
-	<img src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png">
+	<img src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png"  width="200" height="400" />
 </p>
 
 
-<img src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png" data-canonical-src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png" width="200" height="400" />
+
