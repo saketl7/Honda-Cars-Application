@@ -15,6 +15,7 @@ The goal of this software is to give existing users with technology that allows 
 - The process of development of the software is divided into seven months of span from August 2021 to February 2022.
 
 ## Features/Modules
-- <b>Viewing Models & Specifications of each product</b> - This component of the application will allow users to view models of automobiles that they are interested in purchasing, and users will be able to browse through numerous models that they are interested in, and on the later stage users will be able to book the car virtually.
+- <b>Viewing Models & Specifications of each product</b> - 
+This component of the application will allow users to view models of automobiles that they are interested in purchasing, and users will be able to browse through numerous models that they are interested in, and on the later stage users will be able to book the car virtually.
 
 - Apply for a test drive of a particular product - This feature of the app will assist interested users in scheduling a test drive of a certain model of
