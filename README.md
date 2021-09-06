@@ -43,7 +43,17 @@ The goal of this software is to give existing users with technology that allows 
 
 - <b>About Page</b> - This tab is a basic page describing the company.
 
+## Technologies Used
+- AndroidStudio 
+- LocationAPI
+- Firebase
+- Firestore
+- Collab for Data Analysis and ML
 
+## Final Deliverables
+An application for Honda Cars India Ltd with the above enlisted features.
+<p align="center">
+	<img src="https://github.com/saketlakhotia17/Honda-Cars-Application/blob/master/images/design.png"  width="300" height="550" />
+</p>
 
-
-
+## 
