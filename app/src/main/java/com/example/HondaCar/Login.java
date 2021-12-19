@@ -46,8 +46,6 @@ public class Login extends AppCompatActivity {
         adminBtn = findViewById(R.id.textViewAdmin);
 
 
-
-
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
 
 
@@ -83,7 +81,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }else {
                             Toast.makeText(Login.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.INVISIBLE);
@@ -97,19 +95,19 @@ public class Login extends AppCompatActivity {
 
         if(fAuth.getCurrentUser() != null) {
             userID = fAuth.getCurrentUser().getUid();
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));}
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));}
 
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Signup.class));
+                startActivity(new Intent(getApplicationContext(), Signup.class));
             }
         });
 
         adminBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),admin_login.class));
+                startActivity(new Intent(getApplicationContext(), admin_login.class));
             }
         });
 
