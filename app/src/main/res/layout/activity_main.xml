@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.064" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.063" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -47,7 +47,7 @@
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -61,7 +61,7 @@
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.053" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -75,7 +75,7 @@
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton3"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -89,7 +89,7 @@
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton4"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.046" />
 
     <ImageButton
         android:id="@+id/imageButton7"
@@ -103,7 +103,7 @@
         app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton5"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <ImageButton
         android:id="@+id/imageButton8"
@@ -117,6 +117,20 @@
         app:layout_constraintHorizontal_bias="0.884"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton6"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="logout"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintVertical_bias="0.148" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -54,7 +54,7 @@ public class Signup extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
 
         if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(), profile.class));
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
 
@@ -134,7 +134,7 @@ public class Signup extends AppCompatActivity {
                                     Log.d("", "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(), profile.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
 
                         }else {
                             Toast.makeText(Signup.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
