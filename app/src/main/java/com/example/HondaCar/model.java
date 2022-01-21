@@ -5,32 +5,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.google.firebase.auth.FirebaseAuth;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-public class profile extends AppCompatActivity {
+public class model extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_model);
 
         ImageView Icon = findViewById(R.id.back);
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(profile.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(model.this, MainActivity.class);
                 startActivity(intentLoadNewActivity);
             }
         });
+
+
     }
-
-    public void logout(View view) {
-        FirebaseAuth.getInstance().signOut();
-        startActivity(new Intent(getApplicationContext(),Login.class));
-        finish();
-    }
-
-
 }
