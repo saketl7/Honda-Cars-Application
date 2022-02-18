@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".emi">
 
     <include
@@ -15,7 +16,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="EMI Calculator"
+        android:text=" EMI Calculator"
+        android:layout_marginLeft="17dp"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -23,4 +25,229 @@
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/include3" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <TextView
+            android:layout_width="401dp"
+            android:padding="10dip"
+            android:layout_marginTop="10dp"
+            android:text="Principal Amount"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp">
+
+
+        <EditText
+            android:id="@+id/principal_amount"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint=" Total Cost of Vehicle"
+            android:inputType="numberDecimal"
+            android:textSize="12.5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="12dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:padding="10dip"
+            android:text="Down Payment"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="20dp">
+
+
+        <EditText
+            android:id="@+id/down_payment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint=" Initial Down Payment"
+            android:inputType="numberDecimal"
+            android:textSize="12.5dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp">
+
+        <TextView
+            android:padding="10dip"
+            android:text="Interest Rate"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="91dp">
+
+        <EditText
+            android:id="@+id/interest_rate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint=" Rate in Percentage : 7.5"
+            android:inputType="numberDecimal"
+            android:textSize="12.5dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="130dp">
+
+        <TextView
+            android:padding="10dip"
+            android:text="Total Years"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="130dp">
+
+        <EditText
+            android:id="@+id/total_years"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/edit_text_bg"
+            android:hint=" Amortization Period"
+            android:layout_marginRight="22dp"
+            android:inputType="numberDecimal"
+            android:textSize="12.5dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/red"
+        android:backgroundTintMode="multiply"
+        android:clickable="true"
+        android:foregroundTint="@color/red"
+        android:foregroundTintMode="multiply"
+        android:gravity="center"
+        android:paddingTop="20dip"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="169dp">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_span="2"
+            android:background="@drawable/edit_text_bg"
+            android:backgroundTint="@color/red"
+            android:textColor="@color/white"
+            android:onClick="calculatePayments"
+            android:text="Calculate"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="237dp">
+
+        <TextView
+            android:layout_width="230dp"
+            android:padding="10dip"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:text="Calculated EMI"
+            tools:visibility="visible" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/edit_text_bg"
+        tools:layout_editor_absoluteY="237dp">
+
+
+        <TextView
+            android:id="@+id/calculated_emi"
+            android:layout_height="40dp"
+            android:layout_width="31dp" />
+    </TableRow>
+
+
+
+
+</TableLayout>
