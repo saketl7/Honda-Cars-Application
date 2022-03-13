@@ -32,7 +32,7 @@ public class emi extends AppCompatActivity {
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(emi.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(emi.this, home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

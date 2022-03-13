@@ -81,7 +81,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), home.class));
                         }else {
                             Toast.makeText(Login.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                             progressBar.setVisibility(View.INVISIBLE);
@@ -95,7 +95,7 @@ public class Login extends AppCompatActivity {
 
         if(fAuth.getCurrentUser() != null) {
             userID = fAuth.getCurrentUser().getUid();
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));}
+            startActivity(new Intent(getApplicationContext(), home.class));}
 
         mCreateBtn.setOnClickListener(new View.OnClickListener() {
             @Override

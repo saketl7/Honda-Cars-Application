@@ -29,6 +29,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Signup extends AppCompatActivity {
+    public static final String TAG = "TAG";
     EditText mFullName,mEmail,mPassword,mPhone;
     Button mRegisterBtn;
     TextView mLoginBtn;
@@ -55,7 +56,7 @@ public class Signup extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
 
         if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), home.class));
             finish();
         }
 
@@ -63,10 +64,10 @@ public class Signup extends AppCompatActivity {
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final String email = mEmail.getText().toString().trim();
+                String email = mEmail.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
-                final String fullName = mFullName.getText().toString();
-                final String phone    = mPhone.getText().toString();
+                String fullName = mFullName.getText().toString();
+                String phone    = mPhone.getText().toString();
 
                 if(TextUtils.isEmpty(fullName)){
                     mFullName.setError("Full Name is Required.");
@@ -119,23 +120,24 @@ public class Signup extends AppCompatActivity {
 
                             Toast.makeText(Signup.this, "User Created.", Toast.LENGTH_SHORT).show();
                             userID = fAuth.getCurrentUser().getUid();
-                            DocumentReference documentReference = fStore.collection("users").document(userID);
+                            DocumentReference documentReference = fStore.collection("user").document(userID);
                             Map<String,Object> user = new HashMap<>();
                             user.put("fName",fullName);
                             user.put("email",email);
                             user.put("phone",phone);
+
                             documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                                 @Override
                                 public void onSuccess(Void aVoid) {
-                                    Log.d("", "onSuccess: user Profile is created for "+ userID);
+                                    Log.d(TAG, "onSuccess: user Profile is created for "+ userID);
                                 }
                             }).addOnFailureListener(new OnFailureListener() {
                                 @Override
                                 public void onFailure(@NonNull Exception e) {
-                                    Log.d("", "onFailure: " + e.toString());
+                                    Log.d(TAG, "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), home.class));
 
                         }else {
                             Toast.makeText(Signup.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

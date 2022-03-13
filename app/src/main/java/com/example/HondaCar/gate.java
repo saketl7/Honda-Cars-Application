@@ -18,7 +18,7 @@ public class gate extends AppCompatActivity {
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(gate.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(gate.this, home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

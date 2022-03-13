@@ -10,6 +10,15 @@
         android:id="@+id/include8"
         layout="@layout/toolbar2" />
 
+    <ProgressBar
+        android:id="@+id/pbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#FFFFFF"
+        android:progressTint="@color/red"
+        app:layout_constraintBottom_toBottomOf="@+id/include8" />
+
     <WebView
         android:id="@+id/webview1"
         android:layout_width="389dp"

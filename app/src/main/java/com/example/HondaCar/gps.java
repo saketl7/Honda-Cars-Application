@@ -18,7 +18,7 @@ public class gps extends AppCompatActivity {
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(gps.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(gps.this, home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

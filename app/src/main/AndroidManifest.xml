@@ -10,6 +10,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity
+            android:name=".faq"
+            android:exported="false" />
+        <activity
+            android:name=".contact"
+            android:exported="false" />
+        <activity
+            android:name=".wrv"
+            android:exported="false" />
+        <activity
+            android:name=".newamaze"
+            android:exported="false" />
+        <activity
+            android:name=".jazz"
+            android:exported="false" />
+        <activity
+            android:name=".city"
+            android:exported="false" />
+        <activity
+            android:name=".newcity"
+            android:exported="false" />
+        <activity
+            android:name=".model"
+            android:exported="false" />
+        <activity
+            android:name=".models.cars"
+            android:exported="false" />
+        <activity
+            android:name=".models"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".test"
             android:exported="false" />
         <activity
@@ -25,29 +58,28 @@
             android:name=".buy"
             android:exported="false" />
         <activity
-            android:name=".model"
-            android:exported="false" />
-        <activity
             android:name=".emi"
             android:exported="false" />
         <activity
             android:name=".gps"
             android:exported="false" />
-        <activity android:name=".profile" />
+        <activity android:name=".menu" />
         <activity android:name=".admin_login" />
         <activity android:name=".Signup" />
-        <activity android:name=".Login">
+        <activity
+            android:name=".Login"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".home" />
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
 </manifest>

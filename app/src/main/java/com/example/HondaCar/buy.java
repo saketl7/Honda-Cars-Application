@@ -3,24 +3,44 @@ package com.example.HondaCar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class buy extends AppCompatActivity {
     private WebView webView;
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buy);
 
-        webView = (WebView) findViewById(R.id.webview);
+        webView = (WebView) findViewById(R.id.wv);
+        progressBar = findViewById(R.id.pbar);
+        progressBar.setMax(100);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://www.hondacarindia.com/honda-from-home?int_source=honda-from-home-homepage-menu-booknow-buynow-btn-hfh&int_medium=dw");
+        progressBar.setProgress(0);
+
+        webView.setWebChromeClient(new WebChromeClient(){
+
+            @Override
+            public void onProgressChanged(WebView view, int newProgress) {
+                progressBar.setProgress(newProgress);
+                if (newProgress==100)
+                    progressBar.setVisibility(View.INVISIBLE);
+                else
+                    progressBar.setVisibility(View.VISIBLE);
+                super.onProgressChanged(view, newProgress);
+
+            }
+        });
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
@@ -29,7 +49,7 @@ public class buy extends AppCompatActivity {
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(buy.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(buy.this, home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

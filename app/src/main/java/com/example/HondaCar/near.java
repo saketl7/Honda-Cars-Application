@@ -18,7 +18,7 @@ public class near extends AppCompatActivity {
         Icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentLoadNewActivity = new Intent(near.this, MainActivity.class);
+                Intent intentLoadNewActivity = new Intent(near.this, home.class);
                 startActivity(intentLoadNewActivity);
             }
         });

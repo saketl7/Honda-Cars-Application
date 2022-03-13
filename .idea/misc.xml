@@ -10,21 +10,40 @@
         <entry key="app/src/main/res/drawable-v24/ic_person_black_24dp.xml" value="0.270995670995671" />
         <entry key="app/src/main/res/drawable-v24/ic_phone_black_24dp.xml" value="0.270995670995671" />
         <entry key="app/src/main/res/drawable/background_border.xml" value="0.270995670995671" />
+        <entry key="app/src/main/res/drawable/bg_chat_receive.xml" value="0.16885964912280702" />
+        <entry key="app/src/main/res/drawable/bg_chat_send.xml" value="0.16885964912280702" />
+        <entry key="app/src/main/res/drawable/border_outline.xml" value="0.16885964912280702" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.16885964912280702" />
         <entry key="app/src/main/res/drawable/edit_text_bg.xml" value="0.270995670995671" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu.xml" value="0.16885964912280702" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.16885964912280702" />
         <entry key="app/src/main/res/layout/activity_admin_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_buy.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_cars.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_cars2.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_city.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_contact.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_emi.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_faq.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_gate.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_gps.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_jazz.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_model.xml" value="0.32389765922700053" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_model.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_models.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_near.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_newamaze.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_newcity.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/activity_test.xml" value="0.26096491228070173" />
+        <entry key="app/src/main/res/layout/activity_wrv.xml" value="0.24912280701754386" />
+        <entry key="app/src/main/res/layout/adapter_message_one.xml" value="0.15526315789473685" />
         <entry key="app/src/main/res/layout/custom_image.xml" value="0.23055555555555557" />
         <entry key="app/src/main/res/layout/toolbar1.xml" value="0.26096491228070173" />
         <entry key="app/src/main/res/layout/toolbar2.xml" value="0.26096491228070173" />
